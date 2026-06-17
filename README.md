@@ -1,120 +1,69 @@
-# 🎬 Netflix Data Analysis Project
+📺 Netflix Data Analysis
+Netflix
+Python
+SQL
+Power BI
 
-## 📌 Project Overview
+📌 Project Overview
+An end-to-end data analysis of 8,000+ Netflix titles to uncover content trends, genre performance, regional patterns, and release strategies.
 
-This project analyzes Netflix content data to uncover insights about content distribution, trends, and audience preferences.
-The analysis was performed using **Python, SQL, and Power BI**, focusing on transforming raw data into meaningful business insights.
+Business Question: What type of content does Netflix prioritize — and what drives engagement by region?
 
----
+🎯 Problem Statement
+Netflix's content library has grown exponentially. This project identifies:
 
-## 🎯 Objectives
+Which genres dominate the platform?
+How has content volume changed year over year?
+Which countries produce the most Netflix content?
+What is the split between Movies vs TV Shows?
+📊 Dataset Features
+Feature	Description
+Title	Name of the content
+Type	Movie or TV Show
+Genre	Content category
+Country	Production country
+Release Year	Year of release
+Rating	Age rating (PG, R, etc.)
+Duration	Runtime or seasons
+🛠️ Tech Stack
+Tool	Purpose
+Python (Pandas, NumPy)	Data cleaning & processing
+Matplotlib / Seaborn	Exploratory visualizations
+SQL	Data querying & aggregation
+Power BI	Interactive dashboard
+Jupyter Notebook	Analysis environment
+🔍 Workflow
+1️⃣ Data Cleaning (Python)
+Handled missing values in director, cast, country columns
+Parsed and standardized date formats
+Split multi-value genre columns for analysis
+2️⃣ Data Querying (SQL)
+Aggregated content by genre, country, and year
+Filtered top-performing categories
+Joined datasets for cross-analysis
+3️⃣ Visualization & Dashboard (Power BI)
+Interactive filters by country, genre, rating, and year
+KPI cards: total titles, movies vs shows ratio, avg duration
+Time-series chart for content additions over years
+📈 Key Insights
+✔ Drama & International Films are Netflix's most dominant genres
+✔ Content additions peaked between 2018–2020, slowed post-pandemic
+✔ USA, India & UK produce the most Netflix content
+✔ TV Shows have longer viewer engagement than movies
+✔ Most content is rated TV-MA, targeting adult audiences  
 
-* Understand distribution of Movies vs TV Shows
-* Identify top genres and content trends
-* Analyze country-wise contribution
-* Study growth of content over time
-* Provide actionable business insights
+💡 Business Impact
+Helps content teams prioritize genre investments
+Identifies regional content gaps to fill
+Supports data-driven acquisition strategies
+🚀 Future Improvements
+ Add viewer ratings & review sentiment analysis
+ Build predictive model for content success
+ Deploy interactive web dashboard (Streamlit)
+ Add IMDb ratings integration
+👨‍💻 Author
+Rohit Gupta
+📍 Mumbai, India | 🎓 BCA @ Amity University
+🔗 LinkedIn | GitHub
 
----
-
-## 🛠️ Tools & Technologies Used
-
-* **Python** (Pandas, NumPy, Matplotlib) → Data Cleaning & Analysis
-* **SQL** → Data Querying & Aggregation
-* **Power BI** → Dashboard & Visualization
-* **Excel/CSV** → Data Source
-
----
-
-## 📂 Project Structure
-
-```
-Netflix-Data-Analysis/
-│
-├── data/
-│   └── netflix.csv
-│
-├── notebook/
-│   └── analysis.ipynb
-│
-├── sql/
-│   └── queries.sql
-│
-├── dashboard/
-│   └── netflix_dashboard.pbix
-│
-└── README.md
-```
-
----
-
-## 🧹 Data Cleaning Process
-
-* Handled missing values
-* Removed duplicates
-* Converted date formats
-* Extracted year from date
-* Standardized column names
-
----
-
-## 📊 Key Analysis Performed
-
-### 1. Content Distribution
-
-* Compared number of Movies vs TV Shows
-
-### 2. Genre Analysis
-
-* Identified most popular genres
-
-### 3. Country Analysis
-
-* Found top contributing countries
-
-### 4. Trend Analysis
-
-* Studied content growth over years
-
----
-
-## 📈 Dashboard Features
-
-* KPI cards (Total Titles, Movies, TV Shows, Top Country)
-* Genre distribution (Bar chart)
-* Movies vs TV Shows (Pie chart)
-* Content growth over time (Line chart)
-* Country-wise analysis
-* Interactive filters (Year, Type, Genre)
-
----
-
-## 🔍 Key Insights
-
-* Movies dominate Netflix content
-* USA contributes the highest number of titles
-* Drama is the most popular genre
-* Content growth increased significantly after 2017
-* TV Shows have shown growth in recent years
-
----
-
-## 💡 Business Recommendations
-
-* Invest more in high-demand genres like Drama
-* Expand content production in top-performing countries
-* Increase focus on TV Shows due to rising trend
-
----
-
-## 📸 Dashboard Preview
-
-https://github.com/RohitOPPA/Netflix-Data-Analysis/blob/main/Dashboard.png
-
----
-
-## 📬 Contact
-
-* LinkedIn: https://www.linkedin.com/in/rohit-gupta-10b675365
-
----
+⭐ Found this useful? Give it a star!
